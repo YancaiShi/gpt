@@ -52,7 +52,7 @@ app.use(router.routes());
 app.use(router.allowedMethods());
 
 // 启动服务器
-const port = 3000;
+const port = 443;
 app.listen(port, () => {
     console.log(`服务器已启动，正在监听端口 ${port}`);
 });
