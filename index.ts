@@ -42,6 +42,10 @@ router.post('/chat', async (ctx: any, next) => {
     }
 });
 
+router.post('/test', async (ctx: any, next) => {
+    ctx.body = { msg:'可以了老铁' };
+});
+
 // 添加 body-parser 中间件
 app.use(bodyParser());
 app.use(router.routes());
