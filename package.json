@@ -1,0 +1,34 @@
+{
+  "name": "gpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/koa-router": "^7.4.4",
+    "axios": "^1.4.0",
+    "chatgpt": "^5.2.5",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.0",
+    "koa-router": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.6",
+    "@types/koa-bodyparser": "^4.3.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YancaiShi/gpt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YancaiShi/gpt/issues"
+  },
+  "homepage": "https://github.com/YancaiShi/gpt#readme"
+}
